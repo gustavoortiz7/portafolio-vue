@@ -1,10 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import { useTheme } from '@/composables/useTheme'
-import { Sun, Moon } from 'lucide-vue-next'
 import { Menu, X } from 'lucide-vue-next'
-
-const { isDark, toggleTheme } = useTheme()
 
 const menuOpen = ref(false)
 const isScrolled = ref(false)
@@ -93,15 +89,6 @@ const scrollToTop = () => {
           </a>
         </li>
       </ul>
-      <button
-        @click="toggleTheme"
-        aria-label="Cambiar tema"
-        class="p-2 rounded-full border border-slate-700 hover:border-emerald-500 hover:bg-slate-800 transition"
-      >
-        <Moon v-if="isDark" :size="20" />
-
-        <Sun v-else :size="20" />
-      </button>
 
       <button @click="toggleMenu" aria-label="Abrir menú" class="md:hidden p-2">
         <Menu v-if="!menuOpen" :size="28" />
