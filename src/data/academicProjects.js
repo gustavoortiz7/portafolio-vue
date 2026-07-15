@@ -23,11 +23,11 @@ export const academicProjects = [
 
     technologies: ['Yii2', 'PHP', 'SQL Server', 'Bootstrap'],
 
-    github: 'AQUI_TU_GITHUB',
+    github: 'https://github.com/gustavoortiz7/PapeletasSalida',
 
     demo: '',
 
-    image: '/images/papeletas.png',
+    image: '/images/PapeletasSalida1.png',
   },
 
   {
@@ -48,11 +48,11 @@ export const academicProjects = [
 
     technologies: ['Python', 'OpenCV', 'TensorFlow', 'Computer Vision', 'Flutter', 'FastAPI'],
 
-    github: 'AQUI_TU_GITHUB',
+    github: 'https://github.com/gustavoortiz7/SIS330',
 
     demo: '',
 
-    image: '/images/ia-voleibol.png',
+    image: '/images/IA.jpg',
   },
 
   {
@@ -73,10 +73,10 @@ export const academicProjects = [
 
     technologies: ['Unity', 'C#', '2D Game'],
 
-    github: '',
+    github: 'https://github.com/gustavoortiz7/Prototipo-VideoJuego-2D',
 
-    demo: '',
+    demo: '/apk/base.apk',
 
-    image: '/images/videojuego.png',
+    image: '/images/apk.png',
   },
 ]

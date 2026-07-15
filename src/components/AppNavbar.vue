@@ -35,8 +35,8 @@ const links = [
   { name: 'Inicio', href: '#home' },
   { name: 'Sobre mí', href: '#about' },
   { name: 'Habilidades', href: '#skills' },
-  { name: 'Academico', href: '#academic-projects' },
-  { name: 'Proyectos', href: '#projects' },
+  { name: 'Esperiencia Académica', href: '#academic-projects' },
+  { name: 'Proyectos Personales', href: '#projects' },
   { name: 'Contacto', href: '#contact' },
 ]
 

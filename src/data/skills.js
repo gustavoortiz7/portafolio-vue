@@ -75,7 +75,7 @@ export const skills = [
       {
         name: 'MongoDB',
         icon: 'devicon:mongodb',
-        level: 'Intermedio',
+        level: 'Básico',
       },
       {
         name: 'MySQL',

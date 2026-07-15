@@ -4,7 +4,7 @@ export const profile = {
 
   carrera: 'Ing. en Ciencias de la Computación',
 
-  role: 'Desarrollador Junior Full Stack',
+  role: 'Desarrollador de Software Full Stack',
 
   location: 'Santa Cruz, Bolivia',
 
@@ -17,33 +17,35 @@ export const profile = {
 
   github: 'https://github.com/gustavoortiz7',
 
-  linkedin: 'https://linkedin.com/in/tu-perfil',
+  linkedin: 'https://www.linkedin.com/in/luis-gustavo-ortiz-5604b437b',
 
-  resume: '/Luis-Gustavo-Ortiz-CV.pdf',
+  resume: '/CV_LuisGustavoOrtiz.pdf',
 
   // Hero
   description:
-    'Desarrollador Junior Full Stack apasionado por crear aplicaciones web modernas utilizando React, Vue, Node.js, Laravel y MongoDB.',
+    'Desarrollador Full Stack apasionado por crear aplicaciones web modernas y proyectos de Iteligencia Artificial utilizando React, Node.js, Laravel, MySQL y Vision por Computadora.',
 
   // About
   aboutTitle: 'Sobre mí',
 
-  aboutDescription:
-    'Desarrollador Junior Full Stack apasionado por crear aplicaciones web modernas utilizando tecnologías como React, Vue, Node.js, Express, Laravel y MongoDB. Me gusta aprender nuevas herramientas, mejorar mis habilidades y construir proyectos que resuelvan problemas reales.',
+  aboutDescription: `Soy Ingeniero y Licenciado en Ciencias de la Computación con experiencia en el desarrollo de aplicaciones web Full Stack.
+    Durante mi formación académica y experiencia profesional participé en el desarrollo de sistemas administrativos,
+    APIs REST y proyectos de Inteligencia Artificial aplicada al análisis deportivo.
+    Disfruto aprender nuevas tecnologías y desarrollar soluciones que aporten valor a organizaciones y usuarios. Para mejorar mis habilidades y construir proyectos que resuelvan problemas reales.`,
 
   // Tecnologías destacadas
-  technologies: ['React', 'Vue', 'Node.js', 'Laravel', 'MongoDB', 'Tailwind CSS'],
+  technologies: ['React', 'Node.js', 'Laravel', 'MySQL', 'HTML'],
 
   // Fortalezas
   strengths: [
     'Desarrollo de aplicaciones web completas',
     'Diseño de APIs REST',
-    'Resolución de problemas',
-    'Aprendizaje continuo',
+    'Resolución de problemas mediante Software',
+    'Aprendizaje continuo y adaptación a nuevas tecnologías',
   ],
   footer: {
     message:
-      'Gracias por visitar mi portafolio. Estoy siempre dispuesto a aprender, colaborar y participar en nuevos proyectos de desarrollo web.',
+      'Gracias por visitar mi portafolio. Estoy abierto a nuevas oportunidades, colaborar y participar en nuevos proyectos de desarrollo de software.',
   },
 }
 

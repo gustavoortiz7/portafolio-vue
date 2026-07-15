@@ -9,7 +9,7 @@ export const projects = [
     id: 1,
     title: 'Sistema de Inventario Web',
     description: 'Sistema web para administrar productos, movimientos de inventario y usuarios.',
-    image: '/images/inventario.png',
+    image: '/images/sistema-de-inventario-web.png',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT'],
     type: 'Aplicación Web',
     status: 'En Producción',
@@ -23,13 +23,13 @@ export const projects = [
     title: 'Task Manager API',
     description:
       'API REST desarrollada con Laravel que implementa autenticación JWT, CRUD completo y conexión con MySQL.',
-    image: '/images/laravel.png',
+    image: '/images/Rest-API.jpg',
     technologies: ['Laravel', 'PHP', 'Sanctum', 'MySQL'],
     type: 'API REST',
     status: 'Finalizado',
     date: '2026',
     github: 'https://github.com/gustavoortiz7/laravel-task-manager-api',
-    demo: 'https://laravel-task-manager-api.onrender.com/',
+    demo: '#',
   },
 
   {
@@ -37,12 +37,12 @@ export const projects = [
     title: 'Portafolio Profesional',
     description:
       'Portafolio desarrollado con Vue 3, Vite y Tailwind CSS con diseño moderno, modo oscuro y responsive.',
-    image: '/images/portfolio.png',
+    image: '/images/preview.png',
     technologies: ['Vue', 'Vite', 'Tailwind CSS'],
     type: 'Portafolio',
     status: 'En Desarrollo',
     date: '2026',
-    github: '#',
+    github: 'https://github.com/gustavoortiz7/portafolio-vue',
     demo: '#',
   },
 ]
